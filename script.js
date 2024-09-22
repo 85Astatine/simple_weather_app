@@ -54,5 +54,5 @@ let sun_cloud = (resp) =>{
     }
 }
 window.addEventListener("load",()=>{
-    weather("bangladesh")
+    weather("dhaka")
 })
