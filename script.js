@@ -51,6 +51,8 @@ let sun_cloud = (resp) =>{
         image.setAttribute("src", "Clouds.png")
     }else if(situation === "Rain"){
         image.setAttribute("src", "Rain.png")
+    }else if(situation === "Haze"){
+        image.setAttribute("src", "Haze.png")
     }
 }
 window.addEventListener("load",()=>{
